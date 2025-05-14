@@ -1,12 +1,59 @@
 let jokers = [
-  // {
-  //   name: "Joker",
-  //   text: [
-  //     "{C:mult}+4{} Mult"
-  //   ],
-  //   image_url: "img/j_joker.png",
-  //   rarity: "Common"
-  // }
+  {
+    name: "Yu Sze",
+    text: [
+      "Gains {X:mult,C:white}X0.25{} Mult each time a {C:attention}Stone{} card is scored",
+    ],
+    image_url: "img/j_yusze.png",
+    rarity: "Legendary"
+  },
+
+  {
+    name: "Cepillin",
+    text: [
+      "When a {C:attention}High Card{} of {C:attention}5{} Cards is played then all scored Cards retrigger {C:attention}4{} additional times"
+    ],
+    image_url: "img/j_cepillin.png",
+    rarity: "Legendary"
+  },
+
+  {
+    name: "Lucky Clover",
+    text: [
+      "Played {C:attention}Club{} cards have {C:green}1 in 4{} to become {C:attention}Lucky{} cards when scored",
+    ],
+    image_url: "img/j_lucky.png",
+    rarity: "Uncommon"
+  },
+
+  {
+    name: "Bust",
+    text: [
+      "Retrigger all played {C:attention}Stone{} cards",
+    ],
+    image_url: "img/j_bust.png",
+    rarity: "Common"
+  },
+
+  {
+    name: "Junaluska",
+    text: [
+      "{C:chips}+120{} Chips",
+      "{C:green}1 in 6{} chance this card is destroyed at end of round",
+    ],
+    image_url: "img/j_junaluska.png",
+    rarity: "Common"
+  },
+
+  {
+    name: "Red Delicious",
+    text: [
+      "{X:blue,C:white} X3{} Chips",
+      "{C:green}1 in 1000{} chance this card is destroyed at end of round",
+    ],
+    image_url: "img/j_reddelicious.png",
+    rarity: "Common"
+  },
 ]
 
 // works the same. 
@@ -110,22 +157,22 @@ let blinds = [
 ]
 
 let shop_items = [
-  {
-    name: "Joker",
-    text: [
-      "{C:mult}+4{} Mult"
-    ],
-    image_url: "img/j_joker.png",
-    rarity: "Voucher"
-  },
-  {
-    name: "Joker",
-    text: [
-      "{C:mult}+4{} Mult"
-    ],
-    image_url: "img/j_joker.png",
-    rarity: "Pack"
-  },
+//  {
+//    name: "Joker",
+//    text: [
+//      "{C:mult}+4{} Mult"
+//    ],
+//    image_url: "img/j_joker.png",
+//    rarity: "Voucher"
+//  },
+//  {
+//    name: "Joker",
+//    text: [
+//      "{C:mult}+4{} Mult"
+//    ],
+//    image_url: "img/j_joker.png",
+//    rarity: "Pack"
+//  },
 ]
 
 let cols = {
