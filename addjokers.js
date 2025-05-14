@@ -2,7 +2,7 @@ let jokers = [
   {
     name: "Yu Sze",
     text: [
-      "Gains {X:mult,C:white}X0.25{} Mult each time a {C:attention}Stone{} card is scored",
+      "Gains {X:mult,C:white}X0.15{} Mult each time a {C:attention}Stone{} card is scored",
     ],
     image_url: "img/j_yusze.png",
     rarity: "Legendary"
