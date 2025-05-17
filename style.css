@@ -30,7 +30,7 @@ main {
   text-align: center;
   color: white;
   padding: 1rem;
-  width: min(60rem, 100%);
+  width: min(90rem, 100%);
   margin: 1rem auto;
   font-size: 1.5rem;
 }
@@ -56,7 +56,7 @@ h1 {
   padding: 1rem;
   border: 2px solid white;
   border-radius: 1rem;
-  width: 15rem;
+  width: 20rem;
 
   background-color: #374244;
 }

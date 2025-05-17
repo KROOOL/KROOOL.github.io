@@ -2,7 +2,7 @@ let jokers = [
   {
     name: "Yu Sze",
     text: [
-      "Gains {X:mult,C:white}X0.15{} Mult each time a {C:attention}Stone{} card is scored",
+      "Gains {X:mult,C:white}X0.2{} Mult each time a {C:attention}Stone{} card is scored",
     ],
     image_url: "img/j_yusze.png",
     rarity: "Legendary"
@@ -18,9 +18,65 @@ let jokers = [
   },
 
   {
+    name: "Snake",
+    text: [
+      "If your {C:attention}played hand{} has only {C:attention}1{} card {C:attention}+2{} hand size in the current round,", "{C:red}-1{} discard",
+      "{C:inactive}Art by {C:GREEN}BoxWari",
+    ],
+    image_url: "img/j_snake.png",
+    rarity: "Rare"
+  },
+
+  {
+    name: "Souls",
+    text: [
+      "After {C:attention}7{} rounds",
+      "sells this card to",
+      "create a {C:purple}The Soul{} card",
+    ],
+    image_url: "img/j_soul.png",
+    rarity: "Rare"
+  },
+  
+  {
+    name: "Paleta Payaso",
+    text: [
+      "All scored {C:attention}face{} cards have",
+      "{C:green}1 in 2{} chance to convert to another {C:attention}face{} card",
+      "{C:green}1 in 4{} chance to change its {C:attention}Enhancement",
+      "{C:green}1 in 8{} chance to change its {C:attention}Edition",
+    ],
+    image_url: "img/j_paleta_payaso.png",
+    rarity: "Rare"
+  },
+
+  {
+    name: "Moai",
+    text: [
+       "This Joker gains ",
+        "{X:blue,C:white}X0.15{} Chips for destroyed {C:attention}stone{} card",
+        "{C:chips}+25{} Chips for played {C:attention}stone{} card",
+    ],
+    image_url: "img/j_moai.png",
+    rarity: "Rare"
+  },
+
+  {
+    name: "D4C",
+    text: [
+      "If discard hand contain {C:attention}2{}",
+      "cards of the same {C:attention}rank{}",
+      "{C:attention}destroy{} both cards",
+    ],
+    image_url: "img/j_d4c.png",
+    rarity: "Uncommon"
+  },
+
+  {
     name: "Lucky Clover",
     text: [
       "Played {C:attention}Club{} cards have {C:green}1 in 4{} to become {C:attention}Lucky{} cards when scored",
+      "{C:inactive}Art by {C:GREEN}BoxWari",
     ],
     image_url: "img/j_lucky.png",
     rarity: "Uncommon"
@@ -32,6 +88,17 @@ let jokers = [
       "Retrigger all played {C:attention}Stone{} cards",
     ],
     image_url: "img/j_bust.png",
+    rarity: "Uncommon"
+  },
+
+  {
+    name: "Balloon",
+    text: [
+      "{C:attention}+5{} Mult each round",
+      "{C:green}1 in 12{} chance this",
+      "card is destroyed at end of round",
+    ],
+    image_url: "img/j_balloon.png",
     rarity: "Common"
   },
 
@@ -54,6 +121,7 @@ let jokers = [
     image_url: "img/j_reddelicious.png",
     rarity: "Common"
   },
+
 ]
 
 // works the same. 
