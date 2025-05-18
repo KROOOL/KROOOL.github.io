@@ -64,9 +64,9 @@ let jokers = [
   {
     name: "D4C",
     text: [
-      "If discard hand contain {C:attention}2{}",
-      "cards of the same {C:attention}rank{}",
-      "{C:attention}destroy{} both cards",
+      "If discard hand contain exactly {C:attention}3{}",
+      "cards and two of them are of the same {C:attention}rank{}",
+      "{C:attention}destroy{} all cards",
     ],
     image_url: "img/j_d4c.png",
     rarity: "Uncommon"
