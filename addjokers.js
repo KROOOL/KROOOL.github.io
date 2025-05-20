@@ -2,7 +2,7 @@ let jokers = [
   {
     name: "Yu Sze",
     text: [
-      "Gains {X:mult,C:white}X0.2{} Mult each time a {C:attention}Stone{} card is scored",
+      "This Joker gains {X:mult,C:white}X0.2{} Mult each time a {C:attention}Stone{} card is scored",
     ],
     image_url: "img/j_yusze.png",
     rarity: "Legendary"
@@ -11,7 +11,7 @@ let jokers = [
   {
     name: "Cepillin",
     text: [
-      "When a {C:attention}High Card{} of {C:attention}5{} Cards is played then all scored Cards retrigger {C:attention}4{} additional times"
+      "Retrigger all played cards {C:attention}4{} additional times if {C:attention}played hand{} is {C:attention}High Card{} and contains {C:attention}5{} cards"
     ],
     image_url: "img/j_cepillin.png",
     rarity: "Legendary"
@@ -20,7 +20,7 @@ let jokers = [
   {
     name: "Snake",
     text: [
-      "If your {C:attention}played hand{} has only {C:attention}1{} card {C:attention}+2{} hand size in the current round,", "{C:red}-1{} discard",
+      "If {C:attention}played hand{} has only {C:attention}1{} card, {C:attention}+2{} hand size in the current round,", "{C:red}-1{} discard",
       "{C:inactive}Art by {C:GREEN}BoxWari",
     ],
     image_url: "img/j_snake.png",
@@ -30,9 +30,9 @@ let jokers = [
   {
     name: "Souls",
     text: [
-      "After {C:attention}7{} rounds",
-      "sells this card to",
-      "create a {C:purple}The Soul{} card",
+      "After {C:attention}7{} rounds,",
+      "sell this card to",
+      "create a free {C:purple}The Soul{} card",
     ],
     image_url: "img/j_soul.png",
     rarity: "Rare"
@@ -42,8 +42,8 @@ let jokers = [
     name: "Paleta Payaso",
     text: [
       "All scored {C:attention}face{} cards have",
-      "{C:green}1 in 2{} chance to convert to another {C:attention}face{} card",
-      "{C:green}1 in 4{} chance to change its {C:attention}Enhancement",
+      "{C:green}1 in 2{} chance to change to another {C:attention}face{} card,",
+      "{C:green}1 in 4{} chance to change its {C:attention}Enhancement,",
       "{C:green}1 in 8{} chance to change its {C:attention}Edition",
     ],
     image_url: "img/j_paleta_payaso.png",
@@ -54,8 +54,8 @@ let jokers = [
     name: "Moai",
     text: [
        "This Joker gains ",
-        "{X:blue,C:white}X0.15{} Chips for destroyed {C:attention}stone{} card",
-        "{C:chips}+25{} Chips for played {C:attention}stone{} card",
+        "{X:blue,C:white}X0.15{} Chips for each destroyed {C:attention}Stone{} card",
+        "{C:chips}+25{} Chips for each played {C:attention}Stone{} card",
     ],
     image_url: "img/j_moai.png",
     rarity: "Rare"
@@ -64,8 +64,8 @@ let jokers = [
   {
     name: "D4C",
     text: [
-      "If discard hand contain exactly {C:attention}3{}",
-      "cards and two of them are of the same {C:attention}rank{}",
+      "If discarded hand contains exactly {C:attention}3{}",
+      "cards and two of them are of the same {C:attention}rank{},",
       "{C:attention}destroy{} all cards",
     ],
     image_url: "img/j_d4c.png",
@@ -75,7 +75,7 @@ let jokers = [
   {
     name: "Lucky Clover",
     text: [
-      "Played {C:attention}Club{} cards have {C:green}1 in 4{} to become {C:attention}Lucky{} cards when scored",
+      "Played {C:clubs}Club{} cards have {C:green}1 in 4{} chance to become {C:attention}Lucky{} cards when scored",
       "{C:inactive}Art by {C:GREEN}BoxWari",
     ],
     image_url: "img/j_lucky.png",
@@ -96,7 +96,7 @@ let jokers = [
     text: [
       "{C:attention}+5{} Mult each round",
       "{C:green}1 in 12{} chance this",
-      "card is destroyed at end of round",
+      "is destroyed at the end of round",
     ],
     image_url: "img/j_balloon.png",
     rarity: "Common"
@@ -106,7 +106,7 @@ let jokers = [
     name: "Junaluska",
     text: [
       "{C:chips}+120{} Chips",
-      "{C:green}1 in 6{} chance this card is destroyed at end of round",
+      "{C:green}1 in 6{} chance this is destroyed at the end of round",
     ],
     image_url: "img/j_junaluska.png",
     rarity: "Common"
@@ -116,7 +116,7 @@ let jokers = [
     name: "Red Delicious",
     text: [
       "{X:blue,C:white} X3{} Chips",
-      "{C:green}1 in 1000{} chance this card is destroyed at end of round",
+      "{C:green}1 in 1000{} chance this is destroyed at the end of round",
     ],
     image_url: "img/j_reddelicious.png",
     rarity: "Common"
