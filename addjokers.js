@@ -111,7 +111,7 @@ let jokers = [
     text: [
       "{C:mult}+30{} Mult if played",
       "hand contains",
-      "{C:attention}#2#{} or fewer cards",
+      "{C:attention}2{} or fewer cards",
     ],
     image_url: "img/j_otherhalf.png",
     rarity: "Uncommon"
