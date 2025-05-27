@@ -1,25 +1,147 @@
 let jokers = [
   {
-    name: "Yu Sze",
+    name: "Balloon",
     text: [
-      "This Joker gains {X:mult,C:white}X0.2{} Mult each time a {C:attention}Stone{} card is scored",
+      "{C:attention}+5{} Mult each round",
+      "{C:green}1 in 12{} chance this",
+      "is destroyed at the end of round",
     ],
-    image_url: "img/j_yusze.png",
-    rarity: "Legendary"
+    image_url: "img/j_balloon.png",
+    rarity: "Common"
   },
 
   {
-    name: "Cepillin",
+    name: "Piggy Bank",
     text: [
-      "Retrigger all played cards {C:attention}4{} additional times if {C:attention}played hand{} is {C:attention}High Card{} and contains {C:attention}5{} cards"
+      "This Joker gains {C:money}$1{} of",
+      "{C:attention}sell value{} per each {C:money}$5{}",
+      "that you have when",
+      "exiting the shop",
+      "{C:inactive}Art by {C:GREEN}BoxWari"
     ],
-    image_url: "img/j_cepillin.png",
-    rarity: "Legendary"
+    image_url: "img/j_piggy_bank.png",
+    rarity: "Common"
+  },
+
+   {
+    name: "Junaluska",
+    text: [
+      "{C:chips}+120{} Chips",
+      "{C:green}1 in 6{} chance this is destroyed at the end of round",
+    ],
+    image_url: "img/j_junaluska.png",
+    rarity: "Common"
+  },
+
+  {
+    name: "Red Delicious",
+    text: [
+      "{X:blue,C:white} X3{} Chips",
+      "{C:green}1 in 1000{} chance this is destroyed at the end of round",
+    ],
+    image_url: "img/j_reddelicious.png",
+    rarity: "Common"
+  },
+
+  {
+    name: "Alien Joker",
+    text: [
+      "{C:chips}+10{} Chips per {C:blue}Planet{}",
+      "card used this run",
+    ],
+    image_url: "img/j_alien.png",
+    rarity: "Common"
+  },
+
+  {
+    name: "Bald Joker",
+    text: [
+      "{C:mult}+25{} Mult",
+      "{C:green}1 in 7{} chance to ",
+      "{X:mult,C:white}X0.8{} Mult",
+    ],
+    image_url: "img/j_bald.png",
+    rarity: "Common"
+  },
+  
+  {
+    name: "D4C",
+    text: [
+      "If discarded hand contains exactly {C:attention}3{}",
+      "cards and two of them are of the same {C:attention}rank{},",
+      "{C:attention}destroy{} all cards",
+    ],
+    image_url: "img/j_d4c.png",
+    rarity: "Uncommon"
+  },
+
+  {
+    name: "D6",
+    text: [
+      "{C:attention}Sell{} this Joker to destroy all other",
+      "Jokers and create {C:attention}random Jokers",
+      "{C:attention}equal{} to the amount of Jokers destroyed",
+    ],
+    image_url: "img/j_d6.png",
+    rarity: "Uncommon"
+  },
+
+  {
+    name: "Lucky Clover",
+    text: [
+      "Played {C:clubs}Club{} cards have {C:green}1 in 4{} chance to become {C:attention}Lucky{} cards when scored",
+      "{C:inactive}Art by {C:GREEN}BoxWari",
+    ],
+    image_url: "img/j_lucky.png",
+    rarity: "Uncommon"
+  },
+
+  {
+    name: "Baby Joker",
+    text: [
+      "This Joker gains {X:mult,C:white}X0.05{} Mult when",
+      "{C:attention}2{}, {C:attention}3{}, {C:attention}4{} or {C:attention}5{} is played",
+    ],
+    image_url: "img/j_baby.png",
+    rarity: "Uncommon"
+  },
+
+  {
+    name: "Other Half Joker",
+    text: [
+      "{C:mult}+30{} Mult if played",
+      "hand contains",
+      "{C:attention}#2#{} or fewer cards",
+    ],
+    image_url: "img/j_otherhalf.png",
+    rarity: "Uncommon"
+  },
+
+  {
+    name: "Bust",
+    text: [
+      "Retrigger all played {C:attention}Stone{} cards",
+    ],
+    image_url: "img/j_bust.png",
+    rarity: "Uncommon"
+  },
+
+  {
+    name: "Headshot",
+    text: [
+      "This Joker gains {X:mult,C:white}X0.5{} Mult",
+      "when {C:attention}Blind{} is defeated using",
+      "only {C:attention}1{} hand, if Blind isn't",
+      "defeated then this Joker destroys itself",
+    ],
+    image_url: "img/j_headshot.png",
+    rarity: "Uncommon"
   },
 
   {
     name: "Snake",
     text: [
+      "If {C:attention}played hand{} has only {C:attention}1{} card, {C:attention}+2{} hand size,", "{C:red}-1{} discard",
       "If {C:attention}played hand{} has only {C:attention}1{} card, {C:attention}+2{} hand size in the current round,", "{C:red}-1{} discard",
       "{C:inactive}Art by {C:GREEN}BoxWari",
     ],
@@ -51,6 +173,18 @@ let jokers = [
   },
 
   {
+    name: "Damocles",
+    text: [
+      "{X:mult,C:white}X4{} Mult,",
+      "when {C:attention}blind{} is selected {C:green}1 in 6{} chances",
+      "to set hands to {C:attention}1{}",
+      "and {C:attention}lose all discards{}",
+    ],
+    image_url: "img/j_damocles.png",
+    rarity: "Rare"
+  },
+
+  {
     name: "Moai",
     text: [
        "This Joker gains ",
@@ -62,66 +196,22 @@ let jokers = [
   },
 
   {
-    name: "D4C",
+    name: "Yu Sze",
     text: [
-      "If discarded hand contains exactly {C:attention}3{}",
-      "cards and two of them are of the same {C:attention}rank{},",
-      "{C:attention}destroy{} all cards",
+      "This Joker gains {X:mult,C:white}X0.2{} Mult each time a {C:attention}Stone{} card is scored",
     ],
-    image_url: "img/j_d4c.png",
-    rarity: "Uncommon"
+    image_url: "img/j_yusze.png",
+    rarity: "Legendary"
   },
 
   {
-    name: "Lucky Clover",
+    name: "Cepillin",
     text: [
-      "Played {C:clubs}Club{} cards have {C:green}1 in 4{} chance to become {C:attention}Lucky{} cards when scored",
-      "{C:inactive}Art by {C:GREEN}BoxWari",
+      "Retrigger all played cards {C:attention}4{} additional times if {C:attention}played hand{} is {C:attention}High Card{} and contains {C:attention}5{} cards"
     ],
-    image_url: "img/j_lucky.png",
-    rarity: "Uncommon"
+    image_url: "img/j_cepillin.png",
+    rarity: "Legendary"
   },
-
-  {
-    name: "Bust",
-    text: [
-      "Retrigger all played {C:attention}Stone{} cards",
-    ],
-    image_url: "img/j_bust.png",
-    rarity: "Uncommon"
-  },
-
-  {
-    name: "Balloon",
-    text: [
-      "{C:attention}+5{} Mult each round",
-      "{C:green}1 in 12{} chance this",
-      "is destroyed at the end of round",
-    ],
-    image_url: "img/j_balloon.png",
-    rarity: "Common"
-  },
-
-  {
-    name: "Junaluska",
-    text: [
-      "{C:chips}+120{} Chips",
-      "{C:green}1 in 6{} chance this is destroyed at the end of round",
-    ],
-    image_url: "img/j_junaluska.png",
-    rarity: "Common"
-  },
-
-  {
-    name: "Red Delicious",
-    text: [
-      "{X:blue,C:white} X3{} Chips",
-      "{C:green}1 in 1000{} chance this is destroyed at the end of round",
-    ],
-    image_url: "img/j_reddelicious.png",
-    rarity: "Common"
-  },
-
 ]
 
 // works the same. 
