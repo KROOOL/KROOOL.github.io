@@ -142,7 +142,6 @@ let jokers = [
     name: "Snake",
     text: [
       "If {C:attention}played hand{} has only {C:attention}1{} card, {C:attention}+2{} hand size,", "{C:red}-1{} discard",
-      "If {C:attention}played hand{} has only {C:attention}1{} card, {C:attention}+2{} hand size in the current round,", "{C:red}-1{} discard",
       "{C:inactive}Art by {C:GREEN}BoxWari",
     ],
     image_url: "img/j_snake.png",
